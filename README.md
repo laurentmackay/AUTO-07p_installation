@@ -1,5 +1,5 @@
 # AUTO_installer
-Instructions for install AUTO-07p in various Unix environments
+Instructions for installing AUTO-07p in various Unix-like environments
 ### basic AUTO requirements
 sudo apt update
 
