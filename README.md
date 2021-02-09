@@ -48,4 +48,5 @@ pip install -U matplotlib --no-binary :all:
 ### In Linux
 - echo "export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0" >> ~/.bashrc
 - restart WSL shell
+- install AUTO (see above)
 - enjoy
