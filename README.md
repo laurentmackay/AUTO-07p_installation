@@ -39,7 +39,7 @@ pip install -U matplotlib --no-binary :all:
 
 ## Windows 10 using WSL2 + VcXsrv
 ### In Windows 10
-- Install WSL2
+- Install WSL2 + Linux
 - Install VcXsrv
 - Create shortcut with target "C:\Program Files\VcXsrv\vcxsrv.exe" :0 -ac -terminate -lesspointer -multiwindow -clipboard -wgl -dpi auto
 - Add inbound rule for vcxsrv.exe in Windows Defender advanced setting
