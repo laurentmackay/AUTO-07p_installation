@@ -10,13 +10,18 @@ sudo apt install git build-essential gcc gfortran
 
 #### get the latest version of AUTO
 git clone https://github.com/auto-07p/auto-07p.git ~/auto/07p
+
 cd ~/auto/07p
+
 ./configure 
+
 make
+
 make clean
 
 #### "install" auto commands into your terminal environment
 echo 'source ~/auto/07p/cmds/auto.env.sh' >> ~/.bashrc
+
 source ~/.bashrc
 
 ### Ubuntu 20.04 LTS
