@@ -44,6 +44,7 @@ source ~/.bashrc
 
 #### fixing the local python installation (recompile matplotlib with tkinter support)
 sudo apt install tk-dev libpng-dev libffi-dev dvipng texlive-latex-base python-pip python-tk python-matplotlib
+
 pip install -U matplotlib --no-binary :all:
 
 ## WSL (using VcXsrv)
