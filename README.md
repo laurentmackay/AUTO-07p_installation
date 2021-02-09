@@ -1,4 +1,4 @@
-# AUTO_installer
+# AUTO-07p_installation
 Instructions for installing AUTO-07p in various Unix-like environments
 
 ## Debian-Based Linux Distributions
