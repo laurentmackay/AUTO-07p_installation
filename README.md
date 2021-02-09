@@ -29,12 +29,13 @@ sudo apt install tk-dev libpng-dev libffi-dev dvipng texlive-latex-base python-p
 pip install -U matplotlib --no-binary :all:
 
 ## WSL (using VcXsrv)
-### Windows
+### In Windows
 - Install VcXsrv
 - Create shortcut with target "C:\Program Files\VcXsrv\vcxsrv.exe" :0 -ac -terminate -lesspointer -multiwindow -clipboard -wgl -dpi auto
 - Add inbound rule for vcxsrv.exe in Windows Defender advanced setting
-- start VcXsrv by click shortcut
-### Linux
+- start VcXsrv by clicking shortcut
+
+### In Linux
 - echo "export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0" >> ~/.bashrc
 - restart WSL shell
 - enjoy
