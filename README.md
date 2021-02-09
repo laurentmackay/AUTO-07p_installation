@@ -1,6 +1,9 @@
 # AUTO_installer
 Instructions for installing AUTO-07p in various Unix-like environments
-### basic AUTO requirements
+
+## Debian-Based Linux Distributions
+
+#### basic AUTO requirements
 sudo apt update
 
 sudo apt install git build-essential gcc gfortran 
@@ -16,14 +19,14 @@ make clean
 echo 'source ~/auto/07p/cmds/auto.env.sh' >> ~/.bashrc
 source ~/.bashrc
 
-## Ubuntu (tested in  20.04 LTS)
+### Ubuntu 20.04 LTS
 #### fixing the local python installation (recompile matplotlib with tkinter support)
 sudo apt install tk-dev libpng-dev libffi-dev dvipng texlive-latex-base python-pip python3-tk
 
 pip install -U matplotlib --no-binary :all:
 
 
-## Debian (Buster, major difference with Ubuntu 20.04 is use of Python2.7)
+### Debian Buster (major difference with Ubuntu 20.04 is use of Python2.7)
 #### fixing the local python installation (recompile matplotlib with tkinter support)
 sudo apt install tk-dev libpng-dev libffi-dev dvipng texlive-latex-base python-pip python-tk python-matplotlib
 pip install -U matplotlib --no-binary :all:
