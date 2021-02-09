@@ -37,8 +37,9 @@ sudo apt install tk-dev libpng-dev libffi-dev dvipng texlive-latex-base python-p
 
 pip install -U matplotlib --no-binary :all:
 
-## WSL (using VcXsrv)
+## Windows 10 using WSL2 + VcXsrv
 ### In Windows 10
+- Install WSL2
 - Install VcXsrv
 - Create shortcut with target "C:\Program Files\VcXsrv\vcxsrv.exe" :0 -ac -terminate -lesspointer -multiwindow -clipboard -wgl -dpi auto
 - Add inbound rule for vcxsrv.exe in Windows Defender advanced setting
