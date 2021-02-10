@@ -33,9 +33,9 @@ pip install -U matplotlib --no-binary :all:
 
 ### Debian Buster (major difference with Ubuntu 20.04 is use of Python2.7)
 #### fixing the local python installation (recompile matplotlib with tkinter support)
-sudo apt install tk-dev libpng-dev libffi-dev dvipng texlive-latex-base python-pip python-tk python-matplotlib
+sudo apt install tk-dev libpng-dev libffi-dev dvipng texlive-latex-base python3-pip python-tk python-matplotlib
 
-pip install -U matplotlib --no-binary :all:
+pip3 install -U matplotlib --no-binary :all:
 
 ## Windows 10 using WSL2 + VcXsrv
 ### In Windows 10
