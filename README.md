@@ -46,7 +46,7 @@ pip install -U matplotlib --no-binary :all:
 - start VcXsrv by clicking shortcut (you may add this as a startup program for convenience)
 
 ### In Linux
-- echo "export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0" >> ~/.bashrc
+- echo "export DISPLAY=127.0.0.1:0" >> ~/.bashrc
 - restart WSL shell
 - install AUTO (see above)
 - enjoy
